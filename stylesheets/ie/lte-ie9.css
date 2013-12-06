@@ -1,0 +1,21 @@
+/* lt ie 9 */
+	.placeholder-overlay-label{
+		position : absolute;
+		top: 0;
+		left: 1px;
+		font-size: 13px;
+		line-height: 19px;
+		padding: 3px 5px;
+		height: 25px;
+		color: red;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		display: block;
+		/*
+		'font-size' : that.css('font-size'),
+		'line-height' : that.css('height'),
+		'text-indent' : that.css('text-indent'),
+		'color' : that.color*/
+	}
+	.placeholder-overlay{
+		position: relative;
+	}
